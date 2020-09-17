@@ -1,0 +1,103 @@
+header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: -25px 0px 10px 0px;
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(85, 82, 77);
+}
+
+#main {
+    width: 300px;
+    height: 445px;
+    border: 1px solid black;
+    margin: 10px auto 10px auto;
+    background-color: #222222;
+    box-shadow: 0px 0px 20px black;
+}
+
+h1#calc {
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.textview{
+    width: 275px;
+    height: 60px;
+    margin: 10px 10px 10px 10px; 
+    background-color: #333333;
+    color: white;
+    border: none;
+    font-size: 50px;
+}
+
+.botao {
+    width: 60px;
+    height: 50px;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+.botao:hover {
+    background-color: gray;
+}
+
+#n0 {
+    width: 133px;
+    margin: 5px;
+}
+
+#n {
+    width: 60px;
+    background-color: rgb(48, 48, 48);
+}
+
+#n:hover {
+    background-color: gray;
+}
+
+#ni {
+    background-color: rgb(29, 67, 124);
+}
+
+#ni:hover {
+    background-color: rgb(11, 77, 175);
+}
+
+#apaga {
+    width: 133px;
+    background-color: rgb(48, 48, 48);
+}
+
+#apaga:hover {
+    background-color: gray;
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+  
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
